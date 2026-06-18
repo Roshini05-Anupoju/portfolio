@@ -1,0 +1,47 @@
+#projects {
+    display: grid;
+    width: 100%; /* Set the width to 100% */
+    max-width: 1200px; /* Adjust the max-width property as needed */
+    margin: 0 auto; /* Center the projects section horizontally */
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 10px; /* Spacing between thumbnails */
+}
+
+.project-thumbnail {
+    border: 2px solid #ccc; /* Border around each thumbnail */
+    border-radius: 8px;
+    box-shadow: 0 9px 9px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.thumbnail-content {
+    padding: 0px 0px 20px 0px; /* Padding inside the thumbnail frame */
+}
+
+.thumbnail-content img {
+    width: 100%; /* Make image responsive */
+    border-radius: 8px 8px 0px 0px; 
+}
+
+.thumbnail-content h3 {
+    margin-top: 10px;
+    font-size: 18px; /* Adjust title font size */
+}
+
+.thumbnail-content p {
+    margin-top: 10px;
+}
+
+.thumbnail-content .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #831bcd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.thumbnail-content .btn:hover {
+    background-color: #f9620b;
+}
+
